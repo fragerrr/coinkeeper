@@ -1,0 +1,123 @@
+::-webkit-scrollbar {
+    width: 0;
+}
+
+header {
+    background-color: #93BC9B;
+    height: 8vh;
+}
+
+header .logo {
+    margin-left: 5%;
+    height: 8vh;
+}
+
+header .exit {
+    margin-top: 2vh;
+    float: right;
+    height: 4vh;
+    margin-right: 5%;
+}
+
+main {
+    width: 80%;
+    margin: 60px auto;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 4vh 0;
+}
+
+.element {
+    width: 49%;
+    border-radius: 32px;
+}
+
+.account {
+    width: 30%;
+}
+
+.hist {
+    width: 68%;
+    background-color: #beedb7;
+    height: 35vh;
+}
+
+.element-header {
+    background-color: #BEEDB7;
+    height: fit-content;
+    border-radius: 15px 15px 0 0;
+}
+
+.element h2 {
+    margin: auto;
+    width: fit-content;
+}
+
+.element h4 {
+    margin: auto;
+    width: fit-content;
+}
+
+.element-data {
+    background-color: #D5E4D1;
+    max-height: 31vh;
+    overflow-y: auto;
+    border-radius: 0 0 15px 15px;
+}
+
+.element ul {
+    margin: 0;
+    padding: 0 10px;
+}
+
+.element li {
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+
+.element hr {
+    border-color: black;
+    margin: 0;
+}
+
+.x {
+    background: none;
+    border: none;
+    height: 4vh;
+}
+
+.add {
+    /*margin: 5px auto;*/
+    /*width: 100%;*/
+    /*color: #006a00;*/
+    border-radius: 32px;
+    width: 100%;
+    height: 35px;
+    background-color: #0a6c05;
+    color: white;
+    border: none;
+    box-shadow: 0 4px 26px rgba(0, 0, 0, 0.25);
+}
+
+table {
+    width: 100%;
+}
+
+
+td {
+    text-align: center;
+}
+
+select {
+    margin-bottom: 20px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #0a6c05;
+    background: none;
+    font-size: 16px;
+    height: 30px;
+    padding: 0;
+}

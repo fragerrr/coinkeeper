@@ -1,0 +1,31 @@
+.login {
+    display: flex;
+    width: 100%;
+}
+
+.login form {
+    margin-top: 10vh;
+    width: 60%;
+}
+
+.login button {
+    border-radius: 32px;
+    background-color: #0a6c05;
+    height: 50px;
+    color: white;
+    border: none;
+    box-shadow: 0 4px 26px rgba(0, 0, 0, 0.25);
+}
+
+
+.form-submit {
+    width: 45%;
+}
+
+.sign-up-link {
+    width: 45%
+}
+
+.sign-up-link button {
+    width: 100%;
+}
